@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DiffLayout</string>
+    <string name="head_txt">Rompus Room</string>
+    <string name="sub_head_txt">ACCESS CODE REQUIRED</string>
+    <string name="acc_code_bgr_txt">.   Access code</string>
+    <string name="button_txt">JOIN</string>
+    <string name="camera_status">Turn off my camera</string>
+    <string name="microphone_mute">Mute my microphone</string>
+    <string name="setting_duration_adv">These settings apply to your next call only</string>
+    <string name="usa_toll_call">US toll free</string>
+    <string name="usa_local_call">US local number</string>
+    <string name="phone_number_n1">  +1-800-410-3523,,14723760851#</string>
+    <string name="phone_number_n2">201-546-5501,,14723760851#</string>
+</resources>

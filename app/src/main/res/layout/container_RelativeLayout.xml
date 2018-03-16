@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/headtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:text="@string/head_txt"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/key_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headtxt"
+            android:layout_toLeftOf="@+id/acc"
+            android:layout_toStartOf="@+id/acc"
+            android:contentDescription="@string/sub_head_txt"
+            android:src="@drawable/key" />
+
+        <TextView
+            android:id="@+id/acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headtxt"
+            android:layout_centerHorizontal="true"
+            android:text="@string/sub_head_txt" />
+
+        <EditText
+            android:id="@+id/edtxt"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/key_img"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rectanglefill"
+            android:hint="@string/acc_code_bgr_txt"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/green"
+            android:text="@string/button_txt"
+            android:textColor="@color/white"
+            android:layout_below="@id/edtxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:checked="true"
+            android:gravity="center_vertical"
+            android:text="@string/camera_status"
+            android:textColor="@color/blue_txt"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/button"/>
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:text="@string/microphone_mute"
+            android:textColor="@color/blue_txt"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/switch1"/>
+
+        <TextView
+            android:id="@+id/text_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/setting_duration_adv"
+            android:layout_margin="8dp"
+            android:layout_below="@id/switch2"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_top"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/corner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/corner"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"/>
+
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag"
+            android:layout_toRightOf="@id/corner"
+            android:layout_toEndOf="@id/corner"
+            android:layout_alignTop="@id/corner"/>
+
+        <TextView
+            android:id="@+id/text_toll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usa_toll_call"
+            android:textStyle="bold"
+            android:textColor="@color/blue_txt"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/flag"
+            android:layout_toEndOf="@id/flag"
+            android:layout_alignBottom="@id/flag"/>
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number_n1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/flag"
+            android:layout_alignStart="@id/flag"
+            android:layout_alignLeft="@id/flag"/>
+
+        <ImageView
+            android:id="@+id/flag_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag"
+            android:layout_below="@id/num1"
+            android:layout_alignStart="@id/flag"
+            android:layout_alignLeft="@id/flag"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usa_local_call"
+            android:textStyle="bold"
+            android:textColor="@color/blue_txt"
+            android:layout_gravity="bottom"
+            android:layout_alignLeft="@id/text_toll"
+            android:layout_alignStart="@id/text_toll"
+            android:layout_alignBottom="@id/flag_2"/>
+
+        <TextView
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number_n2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/flag_2"
+            android:layout_alignStart="@id/flag_2"
+            android:layout_alignLeft="@id/flag_2"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
