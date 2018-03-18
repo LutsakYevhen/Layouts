@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">DiffLayout</string>
-    <string name="head_txt">Rompus Room</string>
-    <string name="sub_head_txt">ACCESS CODE REQUIRED</string>
-    <string name="acc_code_bgr_txt">.   Access code</string>
-    <string name="button_txt">JOIN</string>
+    <string name="head_text">Rompus Room</string>
+    <string name="sub_head_text">ACCESS CODE REQUIRED</string>
+    <string name="access_code_hint_text">Access code</string>
+    <string name="button_text">JOIN</string>
     <string name="camera_status">Turn off my camera</string>
     <string name="microphone_mute">Mute my microphone</string>
     <string name="setting_duration_adv">These settings apply to your next call only</string>

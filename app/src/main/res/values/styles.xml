@@ -8,5 +8,47 @@
         <item name="colorAccent">@color/green</item>
     </style>
 
+    <style name="Headline_size">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Access_code_and_button_margin_style">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="Switch">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/blue_text</item>
+        <item name="android:textSize">@dimen/Title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Number_info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">@color/blue_text</item>
+    </style>
+    
+    <style name="Number">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 
 </resources>

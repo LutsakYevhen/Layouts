@@ -47,7 +47,7 @@
             android:layout_height="40dp"
             android:layout_below="@+id/key_img"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/rectanglefill"
+            android:background="@drawable/rectangle_fill"
             android:hint="@string/acc_code_bgr_txt"
             android:inputType="text" />
 

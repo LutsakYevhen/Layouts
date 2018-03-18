@@ -62,7 +62,7 @@
             android:layout_height="40dp"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:background="@drawable/rectanglefill"
+            android:background="@drawable/rectangle_fill"
             android:hint="@string/acc_code_bgr_txt"
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
