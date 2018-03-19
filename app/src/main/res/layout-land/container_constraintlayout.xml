@@ -1,9 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container_constraint_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/grey">
 
     <android.support.constraint.ConstraintLayout
@@ -18,7 +21,6 @@
             style="@style/Headline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="50dp"
             android:text="@string/head_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -41,7 +43,7 @@
 
         <EditText
             android:id="@+id/edit_text"
-            style="@style/Access_code_and_button_margin_style"
+            style="@style/Access_code_and_button_margin_style_land"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rectangle_fill"
@@ -51,7 +53,7 @@
 
         <Button
             android:id="@+id/button"
-            style="@style/Access_code_and_button_margin_style"
+            style="@style/Access_code_and_button_margin_style_land"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/green"
@@ -150,7 +152,8 @@
             android:text="@string/phone_number_n2"
             app:layout_constraintStart_toStartOf="@id/flag_2"
             app:layout_constraintTop_toBottomOf="@id/flag_2"/>
-
+        
     </android.support.constraint.ConstraintLayout>
-
+    
 </android.support.constraint.ConstraintLayout>
+</ScrollView>
