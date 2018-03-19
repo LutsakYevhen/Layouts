@@ -24,9 +24,7 @@
             android:layout_height="wrap_content"
             android:text="@string/head_text"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="@dimen/Headline"
-            android:textStyle="bold" />
+            style="@style/Headline" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,13 +47,13 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/Access_code_and_button_margin_style"
+            style="@style/Access_code_and_button_margin_style_land"
             android:background="@drawable/rectangle_fill"
             android:hint="@string/access_code_hint_text"
             android:inputType="text"/>
 
         <Button
-            style="@style/Access_code_and_button_margin_style"
+            style="@style/Access_code_and_button_margin_style_land"
             android:layout_height="match_parent"
             android:layout_width="match_parent"
             android:background="@color/green"
