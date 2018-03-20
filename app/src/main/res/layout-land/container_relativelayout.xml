@@ -60,7 +60,7 @@
 
         <Switch
             android:id="@+id/switch1"
-            style="@style/Switch"
+            style="@style/Switch_land"
             android:checked="true"
             android:text="@string/camera_status"
             android:layout_centerHorizontal="true"
@@ -68,7 +68,7 @@
 
         <Switch
             android:id="@+id/switch2"
-            style="@style/Switch"
+            style="@style/Switch_land"
             android:text="@string/microphone_mute"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/switch1"/>
